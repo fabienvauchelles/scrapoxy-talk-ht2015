@@ -1,7 +1,4 @@
-## Cons
-
 It can take a lot of time...
-
 
 note:
 

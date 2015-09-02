@@ -1,8 +1,8 @@
 ## Cons
 
-- instances die
-- proxies are sometimes blacklisted
-- performances are identical to step 2
+- Instances die
+- Proxies are sometimes blacklisted
+- Performances are identical to step 2
 
 
 note:

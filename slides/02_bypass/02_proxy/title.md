@@ -1,13 +1,6 @@
 ## Step 2: Use a proxy server
 
-Use a proxy server to relay requests
-
-The website believes it's the proxy that creates requests.
-
-If the proxy is blacklisted, change the proxy!
-
-
-mettre une image d'architecture avec un proxy
+<img src="slides/02_bypass/02_proxy/proxy.png" />
 
 
 note:

@@ -4,7 +4,13 @@
         "01_scraping/01_definition/title.md",
         "01_scraping/01_definition/content.md",
         "01_scraping/02_goals/title.md",
-        "01_scraping/02_goals/content.md",
+        {
+            "filename": "01_scraping/02_goals/content.md",
+            "attr": {
+                "class": "image-meme",
+                "data-background": "slides/01_scraping/02_goals/money.jpg"
+            }
+        },
         "01_scraping/03_protect/title.md",
         "01_scraping/03_protect/simple.md",
         "01_scraping/03_protect/complex.md"
@@ -12,9 +18,21 @@
     [
         "02_bypass/index.md",
         "02_bypass/01_limit/title.md",
-        "02_bypass/01_limit/cons.md",
+        {
+            "filename": "02_bypass/01_limit/cons.md",
+            "attr": {
+                "class": "image-meme",
+                "data-background": "slides/02_bypass/01_limit/sleep.jpg"
+            }
+        },
         "02_bypass/02_proxy/title.md",
-        "02_bypass/02_proxy/cons.md",
+        {
+            "filename": "02_bypass/02_proxy/cons.md",
+            "attr": {
+                "class": "image-meme",
+                "data-background": "slides/02_bypass/02_proxy/bear.jpg"
+            }
+        },
         "02_bypass/03_proxy_of_proxies/title.md",
         "02_bypass/03_proxy_of_proxies/cons.md",
         "02_bypass/04_proxies_manager/title.md",

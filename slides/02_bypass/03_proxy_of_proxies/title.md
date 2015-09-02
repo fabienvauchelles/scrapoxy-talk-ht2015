@@ -1,9 +1,6 @@
 ## Step 3: Use a proxy of proxies
 
-Route fairly requests between proxies.
-
-
-mettre une image avec un proxy de proxies (du site web ?)
+<img src="slides/02_bypass/03_proxy_of_proxies/proxy_of_proxies.png" />
 
 
 note:

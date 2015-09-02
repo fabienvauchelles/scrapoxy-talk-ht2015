@@ -1,6 +1,6 @@
 ## Step 4: Use a proxies manager
 
-Add a manager to care proxies
+<img src="slides/02_bypass/04_proxies_manager/scrapoxy.png" />
 
 
 note:

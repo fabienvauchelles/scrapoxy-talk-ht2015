@@ -1,6 +1,4 @@
-## Cons
-
-No respect of step 1 (don't trigger the blacklisting)
+No respect of step 1
 
 
 note:

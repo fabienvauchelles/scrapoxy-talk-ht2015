@@ -1,7 +1,1 @@
-mettre image
-
-
-  proxy of proxies
-+ proxies manager
------------------
-= Scrapoxy
+<img src="slides/03_end/sum.png" />

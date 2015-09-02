@@ -1,6 +1,4 @@
-CLEAN data > CROSS data > SELL data
-
-mettre une image de dollars
+Money!
 
 
 note:

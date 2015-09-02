@@ -1,8 +1,10 @@
-<table class="cross">
+## Transform
+
+<table class="centered">
 <tr>
   <td>
-      <img src="toto" alt="toto"/><br/>
-      Human readeable
+      <img src="slides/01_scraping/01_definition/lemonde.jpg"/><br/>
+      Human data
   </td>
 
   <td>
@@ -10,13 +12,11 @@
   </td>
 
   <td>
-      <img src="toto" alt="toto"/><br/>
-      Machine readeable
+      <img src="slides/01_scraping/01_definition/json.jpg"/><br/>
+      Machine data
   </td>
 </tr>
 </table>
-
-To use this data.
 
 
 note:

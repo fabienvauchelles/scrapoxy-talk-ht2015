@@ -1,4 +1,15 @@
-Install Scrapoxy
+## Install Scrapoxy
+
+```
+$ npm -g install scrapoxy
+```
+
+### And like the project on Github !!!
+
+https://github.com/fabienvauchelles/scrapoxy
+
+
+note:
 
 Je vous conseille d'essayer scrapoxy
 

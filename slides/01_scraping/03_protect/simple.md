@@ -1,5 +1,14 @@
 ## A simple technique
 
+is to detect :
+
+- a **lot** of requests
+- in a **short time**
+- for **one** IP address
+
+
+note:
+
 Détecter un nombre important de requêtes sur une adresse IP
 Comme 2000
 => blacklister l'IP

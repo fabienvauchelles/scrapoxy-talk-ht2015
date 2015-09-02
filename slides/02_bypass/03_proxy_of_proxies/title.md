@@ -1,5 +1,13 @@
 ## Step 3: Use a proxy of proxies
 
+Route fairly requests between proxies.
+
+
+mettre une image avec un proxy de proxies (du site web ?)
+
+
+note:
+
 On veut repartir équitablement les requêtes sur plusieurs proxies.
 
 On intègre un proxy supplémentaire, pour router les requêtes.

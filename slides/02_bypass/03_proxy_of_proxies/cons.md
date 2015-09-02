@@ -1,4 +1,11 @@
-TO FILL
+## Cons
+
+- instances die
+- proxies are sometimes blacklisted
+- performances are identical to step 2
+
+
+note:
 
 On constate 2 problèmes :
 _ les instances crashent

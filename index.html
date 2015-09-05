@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Scrapoxy</title>
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css">
+
+        <link rel="stylesheet" href="css/theme.css" id="theme">
+
+        <link rel="icon" type="image/png" href="favicon.png" />
+
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="bower_components/reveal-highlight-themes/styles/zenburn.css" id="highlight-theme">
+
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+          if( window.location.search.match( /print-pdf/gi ) ) {
+            var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'bower_components/reveal.js/css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <div class="slides">
+                <section>
+                    
+
+                    
+                    <p>
+                        <img src="slides/logo_badge.png" />
+                    </p>
+                    
+                </section>
+
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/01_scraping/index.md"></section>
+
+
+                            
+                                
+    <section class="image-meme" data-background="slides/01_scraping/01_definition/stark.jpg" data-markdown="slides/01_scraping/01_definition/title.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/01_scraping/01_definition/content.md"></section>
+
+
+                            
+                                
+    <section class="image-meme" data-background="slides/01_scraping/01_definition/stark.jpg" data-markdown="slides/01_scraping/02_goals/title.md"></section>
+
+
+                            
+                                
+    <section class="image-meme" data-background="slides/01_scraping/02_goals/money.jpg" data-markdown="slides/01_scraping/02_goals/content.md"></section>
+
+
+                            
+                                
+    <section class="image-meme" data-background="slides/01_scraping/01_definition/stark.jpg" data-markdown="slides/01_scraping/03_protect/title.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/01_scraping/03_protect/simple.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/01_scraping/03_protect/complex.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/02_bypass/index.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/02_bypass/01_limit/title.md"></section>
+
+
+                            
+                                
+    <section class="image-meme" data-background="slides/02_bypass/01_limit/sleep.jpg" data-markdown="slides/02_bypass/01_limit/cons.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/02_bypass/02_proxy/title.md"></section>
+
+
+                            
+                                
+    <section class="image-meme" data-background="slides/02_bypass/02_proxy/bear.jpg" data-markdown="slides/02_bypass/02_proxy/cons.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/02_bypass/03_proxy_of_proxies/title.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/02_bypass/03_proxy_of_proxies/cons.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/02_bypass/04_proxies_manager/title.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/02_bypass/04_proxies_manager/internal.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/03_end/result.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/03_end/install.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+            </div>
+
+            <div id="footer" class="footer">
+                &copy; Fabien Vauchelles
+                <span class="footer-date">(2015)</span>
+            </div>
+
+        </div>
+
+        <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+        <script src="bower_components/reveal.js/js/reveal.js"></script>
+        <script>
+            // Configure Reveal
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+                    // { src: 'bower_components/reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+                    //{ src: 'bower_components/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+
+                    { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } },
+                    { src: 'bower_components/reveal-fabien-theme/js/footer.js' }
+                ]
+            });
+
+
+        </script>
+
+    </body>
+
+</html>

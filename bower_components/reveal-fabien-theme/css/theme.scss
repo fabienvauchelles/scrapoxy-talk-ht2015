@@ -1,0 +1,289 @@
+
+/**
+ * Default theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+// This file has been copied over from
+// ../../reveal.js/css/theme/source/default.scss
+
+// Default mixins and settings -----------------
+@import "../../reveal.js/css/theme/template/mixins";
+@import "../../reveal.js/css/theme/template/settings";
+// ---------------------------------------------
+
+// Include theme-specific fonts ----------------
+@font-face {
+        font-family: 'League Gothic';
+	src: url('../bower_components/reveal.js/lib/font/league-gothic/league-gothic.eot');
+        src: url('../bower_components/reveal.js/lib/font/league-gothic/league-gothic.eot?#iefix') format('embedded-opentype'),
+                 url('../bower_components/reveal.js/lib/font/league-gothic/league-gothic.woff') format('woff'),
+                 url('../bower_components/reveal.js/lib/font/league-gothic/league-gothic.ttf') format('truetype'),
+                 url('../bower_components/reveal.js/lib/font/league-gothic/league-gothic.svg#LeagueGothicRegular') format('svg');
+
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+        font-family: 'Lato';
+        src: url('../bower_components/reveal-fabien-theme/fonts/Lato-Regular.ttf') format('truetype');
+
+        font-weight: 400;
+        font-style: normal;
+}
+
+@font-face {
+        font-family: 'Lato';
+        src: url('../bower_components/reveal-fabien-theme/fonts/Lato-Italic.ttf') format('truetype');
+
+        font-weight: 400;
+        font-style: italic;
+}
+
+@font-face {
+        font-family: 'Lato';
+        src: url('../bower_components/reveal-fabien-theme/fonts/Lato-Bold.ttf') format('truetype');
+
+        font-weight: 700;
+        font-style: normal;
+}
+
+@font-face {
+        font-family: 'Lato';
+        src: url('../bower_components/reveal-fabien-theme/fonts/Lato-BoldItalic.ttf') format('truetype');
+
+        font-weight: 700;
+        font-style: italic;
+}
+
+// ---------------------------------------------
+
+// Override theme settings (see ../template/settings.scss)
+$mainColor: #333;
+$mainFontSize: 36px;
+$headingColor: #333;
+$headingTextShadow: none;
+$backgroundColor: #f7fbfc;
+$linkColor: #3b759e;
+$linkColorHover: lighten( $linkColor, 20% );
+$selectionBackgroundColor: #134674;
+
+// Background generator ------------------------
+$defaultBackgroundColor: #c8ebf4;
+@mixin bodyBackground() {
+    @include radial-gradient( #add9e4, #f7fbfc );
+}
+// ---------------------------------------------
+
+// Theme template ------------------------------
+@import "../../reveal.js/css/theme/template/theme";
+// ---------------------------------------------
+
+// See ../../reveal.js/css/theme/README.md
+// for further explanations on how reveal.js themes work.
+
+.reveal {
+    // Fix links so they are not cut off
+    a:not(.image) {
+        line-height: 1.3em;
+    }
+
+    h2, h3 {
+        padding-bottom: .2em;
+    }
+
+    h2 {
+        font-size: 2.60em;
+    }
+
+    h3 {
+        margin-top: .7em;
+    }
+
+    li {
+        padding-top: .2em;
+        padding-bottom: .2em;
+
+        //list-style-type: square;
+    }
+
+    section {
+        &.image-fullscreen {
+            color: #fff;
+
+            p {
+                padding: .5em;
+
+                background: rgba(#000,.8);
+
+                font-size: 1.5em;
+            }
+        }
+
+        &.image-meme {
+            color: #fff;
+
+            font-family: Impact;
+            font-size: 2.5em;
+            text-transform: uppercase;
+            -webkit-text-stroke-width: 4px;
+            -webkit-text-stroke-color: #000;
+
+            a {
+                color: #fff;
+
+                -webkit-text-stroke-width: 4px;
+                -webkit-text-stroke-color: #000;
+
+                &:hover {
+                    color: $linkColor;
+                }
+            }
+        }
+
+        img {
+            border: none;
+            box-shadow: none;
+        }
+    }
+
+    small {
+        vertical-align: middle;
+    }
+
+    table.centered {
+        width: 100%;
+
+        margin-bottom: 50px;
+
+        td, th {
+            vertical-align: middle;
+            text-align: center;
+        }
+    }
+
+    table.cross {
+        width: 100%;
+
+        tr:first-child {
+            th {
+                text-align: center;
+            }
+        }
+
+        tr:nth-child(even) {
+            background: rgba(0,0,0,.1);
+        }
+
+        td {
+            text-align: center;
+        }
+
+        td, th {
+            padding: 10px;
+        }
+    }
+
+    table.surround {
+        $border: 1px solid #333;
+
+        width: 100%;
+
+        margin-top: 50px;
+
+        th {
+            vertical-align: middle;
+        }
+
+        td {
+            text-align: left;
+        }
+
+        th, td {
+            padding: 5px 10px;
+
+            border-left: $border;
+            border-top: $border;
+
+            &:last-child {
+                border-right: $border;
+            }
+        }
+
+        tr:last-child {
+            th, td {
+                border-bottom: $border;
+            }
+        }
+
+        &.top {
+            th {
+                text-align: center;
+            }
+
+            td {
+                vertical-align: top;
+            }
+        }
+
+        &.left {
+            th {
+                text-align: left;
+            }
+
+            td {
+                vertical-align: middle;
+            }
+        }
+    }
+
+    code {
+        padding: 10px;
+
+        background: #0A1922;
+
+        max-height: none !important;
+    }
+
+    blockquote {
+        text-align: left;
+    }
+
+    .demo-link {
+        display: inline-block;
+        margin: 20px;
+        font-size: 1.2em;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        left: 0; right: 0;
+
+        width: 100%;
+        margin-bottom: 1.7em;
+
+        text-align: center;
+
+        font-size: .8em !important;
+    }
+
+    .footer-date {
+        font-size: .8em !important;
+    }
+}
+
+body.print-pdf {
+    background: $defaultBackgroundColor !important;
+
+    .slides {
+        background: $defaultBackgroundColor !important;
+    }
+}
+
+.backgrounds {
+    @include bodyBackground();
+    background-color: $backgroundColor;
+}

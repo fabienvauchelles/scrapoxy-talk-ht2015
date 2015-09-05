@@ -1,0 +1,23 @@
+{
+  "name": "reveal-fabien-theme",
+  "version": "1.0.0",
+  "authors": [
+    "Fabien Vauchelles <fabien@vauchelles.com>"
+  ],
+  "description": "The theme for my presentation",
+  "keywords": [
+    "reveal",
+    "reveal.js",
+    "themes",
+    "theme"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/fabienvauchelles/reveal-fabien-theme",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

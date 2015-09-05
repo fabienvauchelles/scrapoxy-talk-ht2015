@@ -1,8 +1,11 @@
-## The proxy manager will
+## The proxies manager will
 
-- Start instances
-- Monitor that instances
-- Change the IP address
+- Create new instances on EC2
+- Monitor that instances are alive
+- Change the IP address every 10 minutes
+- Remove blacklisted instance
+
+![eat](slides/02_bypass/04_proxies_manager/eat.png)
 
 
 note:

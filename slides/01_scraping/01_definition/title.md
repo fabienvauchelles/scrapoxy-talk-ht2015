@@ -1,1 +1,1 @@
-## What is scraping ?
+What is scraping ?

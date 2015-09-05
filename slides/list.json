@@ -1,9 +1,21 @@
 [
     [
         "01_scraping/index.md",
-        "01_scraping/01_definition/title.md",
+        {
+            "filename": "01_scraping/01_definition/title.md",
+            "attr": {
+                "class": "image-meme",
+                "data-background": "slides/01_scraping/01_definition/stark.jpg"
+            }
+        },
         "01_scraping/01_definition/content.md",
-        "01_scraping/02_goals/title.md",
+        {
+            "filename": "01_scraping/02_goals/title.md",
+            "attr": {
+                "class": "image-meme",
+                "data-background": "slides/01_scraping/01_definition/stark.jpg"
+            }
+        },
         {
             "filename": "01_scraping/02_goals/content.md",
             "attr": {
@@ -11,7 +23,13 @@
                 "data-background": "slides/01_scraping/02_goals/money.jpg"
             }
         },
-        "01_scraping/03_protect/title.md",
+        {
+            "filename": "01_scraping/03_protect/title.md",
+            "attr": {
+                "class": "image-meme",
+                "data-background": "slides/01_scraping/01_definition/stark.jpg"
+            }
+        },
         "01_scraping/03_protect/simple.md",
         "01_scraping/03_protect/complex.md"
     ],

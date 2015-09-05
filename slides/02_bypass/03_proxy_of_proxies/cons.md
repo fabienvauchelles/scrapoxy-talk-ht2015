@@ -1,7 +1,7 @@
-## Cons
+## Good idea but...
 
 - Instances die
-- Proxies are sometimes blacklisted
+- Instances are sometimes blacklisted
 - Performances are identical to step 2
 
 

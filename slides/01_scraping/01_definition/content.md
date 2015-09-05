@@ -3,7 +3,7 @@
 <table class="centered">
 <tr>
   <td>
-      <img src="slides/01_scraping/01_definition/lemonde.jpg"/><br/>
+      <img src="slides/01_scraping/01_definition/human.png"/><br/>
       Human data
   </td>
 
@@ -12,7 +12,7 @@
   </td>
 
   <td>
-      <img src="slides/01_scraping/01_definition/json.jpg"/><br/>
+      <img src="slides/01_scraping/01_definition/machine.png"/><br/>
       Machine data
   </td>
 </tr>

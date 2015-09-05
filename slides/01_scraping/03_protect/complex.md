@@ -5,9 +5,9 @@
 <td>
 
 <ul>
-<li>Monitor User-Agent</li>
-<li>Monitor Behavior (with Javascript)</li>
-<li>Insert CAPTCHA</li>
+<li>Monitor <b>User-Agent</b></li>
+<li>Monitor <b>Behavior</b><br/>(with Javascript)</li>
+<li>Insert <b>CAPTCHA</b></li>
 </ul>
 
 </td>

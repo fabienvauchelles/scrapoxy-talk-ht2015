@@ -2,9 +2,9 @@
 
 is to detect :
 
-- a **lot** of requests
-- in a **short time**
-- for **one** IP address
+- a **LOT** of requests
+- in a **SHORT TIME**
+- for **ONE** IP address
 
 
 note:
